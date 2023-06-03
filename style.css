@@ -182,3 +182,8 @@ body{
     transition: .3s;
     font-weight: 600;
 }
+
+.textBox .topBtn:hover{
+    background-color: var(--i);
+    color: #000;
+}
