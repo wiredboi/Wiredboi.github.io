@@ -166,3 +166,19 @@ body{
         top: 120%;
     }
 }
+
+.textBox .topBtn{
+    font-family: 'Poppins';
+    padding: 4px 9px;
+    margin: 16px 12px;
+    font-size: 26px;
+    background-color: transparent;
+    color: var(--i);
+    outline: none;
+    border: 3px solid var(--i);
+    border-radius: 4px;
+    cursor: pointer;
+    pointer-events: all;
+    transition: .3s;
+    font-weight: 600;
+}
