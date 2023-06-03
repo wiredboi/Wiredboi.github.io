@@ -175,6 +175,8 @@ body{
     background-color: transparent;
     color: var(--i);
     outline: none;
+    border: 3px solid var(--i);
+    border-radius: 4px;
     cursor: pointer;
     pointer-events: all;
     transition: .3s;
