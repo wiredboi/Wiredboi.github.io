@@ -188,29 +188,38 @@ body{
     color: #000;
 }
 
-            .image-button {
-            display: inline-block;
-            position: relative;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease-in-out;
-            margin-right: 10px;
-        }
+.button {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
 
-        .image-button img {
-            width: 150px; 
-            height: auto;
-        }
+.button img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
-        .image-button:hover {
-            transform: scale(1.1);
-        }
+.button .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
 
-   
-        .caption {
-            display: block;
-            margin-top: 5px;
-            font-size: 18px;
-            color: #555;
-        }
+.button:hover .caption {
+    opacity: 1;
+}
+
