@@ -7,3 +7,8 @@ for (let i = 0; i < numberOfColorBoxes; i++) {
     colorBox.classList.add('colorBox');
     bgAnimation.append(colorBox)
 }
+
+function redirectToWebsite(url) {
+    window.location.href = url;
+}
+
