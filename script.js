@@ -9,6 +9,6 @@ for (let i = 0; i < numberOfColorBoxes; i++) {
 }
 
 function redirectToWebsite(url) {
-    window.location.href = url;
+    window.open(url "_blank");
 }
 
