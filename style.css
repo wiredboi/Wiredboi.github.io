@@ -226,3 +226,7 @@ body{
     opacity: 1;
 }
 
+.picturecont {
+  border-radius: 4px;   
+}
+
