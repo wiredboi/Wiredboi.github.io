@@ -29,16 +29,21 @@
 <style>
 .buttonContainer {
   display: flex;
-  margin-right: 10px;
 }
 
 .textBox {
   flex: 1;
   margin-right: 10px;
 }
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
 </style>
 
-        
+   <div class="buttonWrapper"> 
    <div id="buttonContainer">
   <div class="textBox">
     <div class="maingamecont">
@@ -62,7 +67,8 @@
     </div>
   </div>
 </div>
-
+   </div>
+        
         <script>
 function openWindow(url) {
    var win = window.open();
