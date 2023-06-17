@@ -31,7 +31,7 @@
     <div class="textBox">
   <div class="maingamecont">
     <div class="picturecont">
-      <button class="topBtn" onclick="openNewTab('https://example.com')"> <img src="https://s3-media0.fl.yelpcdn.com/bphoto/huU4ooWqpBwCyLrT4LdpaA/348s.jpg" alt="what the box/picture will show if your image fails to load" width="100"> </button>
+      <button class="topBtn" onclick="openNewTab('https://wiredboi.github.io/')"> <img src="https://s3-media0.fl.yelpcdn.com/bphoto/huU4ooWqpBwCyLrT4LdpaA/348s.jpg" alt="what the box/picture will show if your image fails to load" width="100"> </button>
     </div>
     <div class="caption">
       <h3>your caption</h3>
@@ -41,10 +41,15 @@
 
 <script>
   function openNewTab(url) {
-    window.open('about:blank', '_blank', 'noopener');
-    window.open(url, '_blank', 'noopener');
+    const newTab = window.open('', 'about:blank');
+    newTab.document.write('<html><head><title>about:blank</title></head><body></body></html>');
+    newTab.document.close();
+    
+    const finalTab = window.open(url, '_blank', 'noopener');
+    finalTab.opener = null;
   }
 </script>
+
 
 
 
