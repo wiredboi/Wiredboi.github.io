@@ -42,14 +42,10 @@
 <script>
   function openNewTab(url) {
     const newTab = window.open('about:blank', '_blank');
-    newTab.document.title = 'about:blank';
-    setTimeout(function() {
-      newTab.location.href = url;
-    }, 100);
+    newTab.name = 'about:blank';
+    newTab.location.href = url;
   }
 </script>
-
-
 
 
 
