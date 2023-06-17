@@ -127,7 +127,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(20,1fr);
-    grid-template-rows: repeat(20,1fr);
+    grid-template-rows: repeat(30,1fr);
     background: #1d1d1d;
     filter: saturate(2);
     overflow: hidden;
