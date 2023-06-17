@@ -14,6 +14,7 @@
         </div>
     </div>
     <div class="container">
+        <div class="textBox">
         <nav>
             <h1><span>Wired</span>Boi</h1>
             <ul>
@@ -23,65 +24,67 @@
                 <li><a href='https://wiredboi.github.io/'><button class="topBtn" style="--i:#fff;">TDB</button></a></li>
                 <li><a href='https://wiredboi.github.io/'><button class="topBtn" style="--i:#a020f0;">TBD</button></a></li>
             </ul>
-        </nav>
-
-        <style>
-            .buttonContainer {
-              display: flex;
-            }
-            
-            .textBox {
-              flex: 1;
-              margin-right: 10px;
-            }
-            
-            .buttonWrapper {
-              display: flex;
-              justify-content: flex-start;
-            }
-        </style>
-
-        <div class="buttonWrapper"> 
-            <div id="buttonContainer">
-                <div class="textBox">
-                    <div class="maingamecont">
-                        <div class="picturecont">
-                            <button class="topBtn" onclick="openWindow('https://example.com/image1.jpg')"> <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="what the box/picture will show if your image fails to load" width="100"> </button>
-                        </div>
-                        <div class="caption">
-                            <h3>Button 1 Caption</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="textBox">
-                    <div class="maingamecont">
-                        <div class="picturecont">
-                            <button class="topBtn" onclick="openWindow('https://example.com/image2.jpg')"> <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="what the box/picture will show if your image fails to load" width="100"> </button>
-                        </div>
-                        <div class="caption">
-                            <h3>Button 2 Caption</h3>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
-    </div>
+        </nav>
+<style>
+.buttonContainer {
+  display: flex;
+}
 
-    <script>
-        function openWindow(url) {
-           var win = window.open();
-           win.document.body.style.margin = '0';
-           win.document.body.style.height = '100vh';
-           var iframe = win.document.createElement('iframe');
-           iframe.style.border = 'none';
-           iframe.style.width = '100%';
-           iframe.style.height = '100%';
-           iframe.style.margin = '0';
-           iframe.src = url;
-           win.document.body.appendChild(iframe);
-        }
-    </script>
+.textBox {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+</style>
+
+   <div class="buttonWrapper"> 
+   <div id="buttonContainer">
+  <div class="textBox">
+    <div class="maingamecont">
+      <div class="picturecont">
+        <button class="topBtn" onclick="openWindow('https://example.com/image1.jpg')"> <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="what the box/picture will show if your image fails to load" width="100"> </button>
+      </div>
+      <div class="caption">
+        <h3>Button 1 Caption</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="textBox">
+    <div class="maingamecont">
+      <div class="picturecont">
+        <button class="topBtn" onclick="openWindow('https://example.com/image2.jpg')"> <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="what the box/picture will show if your image fails to load" width="100"> </button>
+      </div>
+      <div class="caption">
+        <h3>Button 2 Caption</h3>
+      </div>
+    </div>
+  </div>
+</div>
+   </div>
+        
+        <script>
+function openWindow(url) {
+   var win = window.open();
+   win.document.body.style.margin = '0';
+   win.document.body.style.height = '100vh';
+   var iframe = win.document.createElement('iframe');
+   iframe.style.border = 'none';
+   iframe.style.width = '100%';
+   iframe.style.height = '100%';
+   iframe.style.margin = '0';
+   iframe.src = url;
+   win.document.body.appendChild(iframe);
+}
+</script>
+
+
 
     <script src="./script.js"></script>
 </body>
