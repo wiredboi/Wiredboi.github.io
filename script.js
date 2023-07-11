@@ -12,4 +12,9 @@ function redirectToWebsite(url) {
     window.open(url, "_blank");
 }
 
+function changeText() {
+    var randomIndex = Math.floor(Math.random() * texts.length); // Get a random index
+    var randomText = texts[randomIndex]; // Get the text at the random index
+    document.getElementById("dynamicText").textContent = randomText; // Set the text content
+}
 
