@@ -13,13 +13,9 @@ function redirectToWebsite(url) {
 }
 
 function changeText() {
-    var randomIndex = Math.floor(Math.random() * texts.length); // Get a random index
-    var randomText = texts[randomIndex]; // Get the text at the random index
-    document.getElementById("dynamicText").textContent = randomText; // Set the text content
+    var randomIndex = Math.floor(Math.random() * texts.length);
+    var randomText = texts[randomIndex];
+    document.getElementById("dynamicText").textContent = randomText;
 }
 
-window.onload = function() {
-    changeText(); // Call the function when the page is loaded or refreshed
-};
-
-
+changeText(); // Call the function immediately to set the initial text
