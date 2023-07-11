@@ -12,13 +12,13 @@ var say = [
   "Welcome.",
   "Shoutout to Preston.",
   "Shoutout to Joel.",
-  "Welcome.",
-  "Welcome.",
-  "Welcome.",
-  "Welcome.",
-  "Welcome.",
-  "Welcome.",
-  "Welcome.",
+  "Where is my Ad-Revenue.",
+  "I've spent three months working on this.",
+  "Cookie.",
+  "Meow.",
+  "Minecraft.",
+  "Fortnite.",
+  "wsg gang.",
 ];
 console.log("[INFO] " + say.length + " splash texts were loaded!")
 
