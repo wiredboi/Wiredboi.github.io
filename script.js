@@ -18,3 +18,8 @@ function changeText() {
     document.getElementById("dynamicText").textContent = randomText; // Set the text content
 }
 
+window.onload = function() {
+    changeText(); // Call the function when the page is loaded or refreshed
+};
+
+
