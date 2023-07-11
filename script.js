@@ -18,4 +18,8 @@ function changeText() {
     document.getElementById("dynamicText").textContent = randomText;
 }
 
-changeText(); // Call the function immediately to set the initial text
+document.addEventListener("DOMContentLoaded", function() {
+    changeText(); // Call the function when the DOM content is loaded
+});
+
+}
