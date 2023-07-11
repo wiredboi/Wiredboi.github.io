@@ -19,6 +19,15 @@ var say = [
   "Minecraft.",
   "Fortnite.",
   "wsg gang.",
+  "Thoughts?.",
+  "Hiya.",
+  "How do you do?.",
+  "500+ lines of code",
+  "13 hours worth of work.",
+  "Way better than the og.",
+  "I want to be a dog.",
+  "I want to be a cat.",
+  
 ];
 console.log("[INFO] " + say.length + " splash texts were loaded!")
 
